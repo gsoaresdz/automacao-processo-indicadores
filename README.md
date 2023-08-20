@@ -1,48 +1,55 @@
 # **Automação de Vendas**
 
-Este script de automação de vendas é usado para analisar dados de vendas, calcular várias métricas de desempenho e enviar relatórios por e-mail para a gerência de cada loja e para a diretoria.
+### **Sobre**
 
-## **Requisitos**
+Este projeto consiste em um script para automação de processos relacionados a indicadores de vendas de lojas. Ele lê dados de arquivos Excel e CSV, realiza análises e operações de dados, e pode enviar e-mails com os resultados.
 
-- Python 3.7 ou superior
-- Bibliotecas:
-    - pandas
-    - pathlib
-    - smtplib
-    - email.mime.multipart
-    - email.mime.base
-    - email.mime.text
-    - email.encoders
-    - os
+### **Bibliotecas Utilizadas:**
 
-## **Instalação**
+- **`pandas`**: Para manipulação e análise de dados.
+- **`pathlib`**: Para manipulação de caminhos de arquivos e diretórios.
+- **`smtplib`** e módulos **`email.*`**: Para enviar e-mails com os resultados.
+- **`os`**: Para operações relacionadas ao sistema operacional.
 
-Antes de usar este script, você precisa instalar o Python e as bibliotecas necessárias. Aqui estão as instruções:
+### **Pré-requisitos:**
 
-1. Instale o Python: Você pode baixar o Python em **https://www.python.org/downloads/**. Siga as instruções na página de download para instalar o Python.
-2. Instale as bibliotecas necessárias: Abra um terminal e use o seguinte comando para instalar todas as bibliotecas necessárias de uma vez:
+- **[Python 3.8+](https://www.python.org/downloads/)**
+- **[Jupyter Notebook](https://jupyter.org/install)**
+
+### **Como Instalar:**
+
+1. **Instalar Python**:
+    - Acesse **[Python Downloads](https://www.python.org/downloads/)** e faça o download da versão recomendada.
+    - Siga as instruções do instalador. Lembre-se de marcar a opção "Add Python to PATH" durante a instalação.
+2. **Instalar Jupyter Notebook**:
+    - Abra o terminal ou prompt de comando e execute:
+        
+        ```
+        pip install jupyter
+        ```
+        
+3. **Instalar Bibliotecas Necessárias**:
+    - Ainda no terminal ou prompt de comando, instale as bibliotecas usadas neste projeto:
+        
+        ```
+        pip install pandas
+        ```
+        
+4. **Clone este repositório** ou faça o download dos arquivos.
+5. Abra o Jupyter Notebook navegando até o diretório do projeto e execute:
     
-    ```bash
-    pip install pandas pathlib secure-smtplib email
+    ```
+    jupyter notebook
     ```
     
+6. No navegador, abra o arquivo **`Automacao de Processo.ipynb`**.
 
-## **Execução**
+### **Como Executar:**
 
-Para executar o script, siga estas etapas:
+1. Dentro do Jupyter Notebook, vá até a célula que deseja executar e pressione **`Shift+Enter`**.
+2. Siga as instruções contidas nas células de markdown e execute as células de código em ordem.
 
-1. Abra um terminal.
-2. Navegue até a pasta que contém o script usando o comando **`cd`**.
-3. Execute o script usando o comando **`python Automacao_de_Processo.ipynb`**.
+### **Estrutura de Arquivos:**
 
-## **Funcionamento do script**
-
-O script realiza as seguintes tarefas:
-
-1. Carrega os dados das vendas, das lojas e dos emails dos gerentes de loja.
-2. Une os dados das vendas e das lojas.
-3. Agrupa as vendas por loja.
-4. Calcula várias métricas de desempenho, incluindo o faturamento do dia, do ano, a diversidade de produtos vendidos e o ticket médio.
-5. Envia um email para cada loja com um relatório do desempenho do dia e do ano.
-6. Calcula o ranking das lojas por faturamento.
-7. Envia um email para a diretoria com o ranking das lojas.
+- **`Bases de Dados`**: Contém os arquivos de dados utilizados para a análise.
+- **`Backup Arquivos Lojas`**: Possivelmente contém backups ou arquivos relacionados às lojas.
