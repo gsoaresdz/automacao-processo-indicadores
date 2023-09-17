@@ -2,7 +2,7 @@
 
 ### **Sobre**
 
-Este projeto consiste em um script para automação de processos relacionados a indicadores de vendas de lojas. Ele lê dados de arquivos Excel e CSV, realiza análises e operações de dados, e pode enviar e-mails com os resultados.
+Este projeto consiste em um script para automação de processos relacionados a indicadores de vendas de lojas. Ele lê dados de arquivos Excel e CSV, realiza análises e operações de dados, e envia e-mails com os resultados.
 
 ### **Bibliotecas Utilizadas:**
 
@@ -52,4 +52,4 @@ Este projeto consiste em um script para automação de processos relacionados a 
 ### **Estrutura de Arquivos:**
 
 - **`Bases de Dados`**: Contém os arquivos de dados utilizados para a análise.
-- **`Backup Arquivos Lojas`**: Possivelmente contém backups ou arquivos relacionados às lojas.
+- **`Backup Arquivos Lojas`**: Contém backups ou arquivos relacionados às lojas.
