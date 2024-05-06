@@ -72,15 +72,15 @@ Antes de iniciar :checkered_flag:, você precisa ter [Git](https://git-scm.com) 
 
 ## :checkered_flag: Execução
 
-```bash
-#1 Clone este repositório ou faça o download dos arquivos.
-#2 Abra o Jupyter Notebook navegando até o diretório do projeto e execute:
+1. Clone este repositório ou faça o download dos arquivos.
+2. Abra o Jupyter Notebook navegando até o diretório do projeto e execute:
 
-$ jupyter notebook
 ```
-
-1. Dentro do Jupyter Notebook, vá até a célula que deseja executar e pressione **`Shift+Enter`**.
-2. Siga as instruções contidas nas células de markdown e execute as células de código em ordem.
+    jupyter notebook
+```
+3. No navegador, abra o arquivo **`Automacao de Processo.ipynb`**
+4. Dentro do Jupyter Notebook, vá até a célula que deseja executar e pressione **`Shift+Enter`**.
+5. Siga as instruções contidas nas células de markdown e execute as células de código em ordem.
 
 ## :memo: Observações
 
