@@ -39,7 +39,7 @@ Este projeto consiste em um script para automação de processos relacionados a 
 - **[Python 3.8+](https://www.python.org/downloads/)**
 - **[Jupyter Notebook](https://jupyter.org/install)**
 
-## :memo: Passos executados no código
+## :memo: Instalações
 
 1. **Instalar Python**:
     - Acesse **[Python Downloads](https://www.python.org/downloads/)** e faça o download da versão recomendada.
