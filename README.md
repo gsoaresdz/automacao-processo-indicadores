@@ -73,7 +73,7 @@ Antes de iniciar :checkered_flag:, você precisa ter [Git](https://git-scm.com) 
 ## :checkered_flag: Execução
 
 ```bash
-#1 Clone este repositório** ou faça o download dos arquivos.
+#1 Clone este repositório ou faça o download dos arquivos.
 #2 Abra o Jupyter Notebook navegando até o diretório do projeto e execute:
 
 $ jupyter notebook
