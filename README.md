@@ -3,13 +3,12 @@
 <h1 align="center">Automação de Vendas</h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/gsoaresdz/automacao-mensagem?color=56BEB8">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/gsoaresdz/automacao-processo-indicadores?color=56BEB8">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/gsoaresdz/automacao-mensagem?color=56BEB8">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/gsoaresdz/automacao-processo-indicadores?color=56BEB8">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/gsoaresdz/automacao-mensagem?color=56BEB8">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/gsoaresdz/automacao-processo-indicadores?color=56BEB8">
 
-  <img alt="License" src="https://img.shields.io/github/license/gsoaresdz/automacao-mensagem?color=56BEB8">
 
 </p>
 
@@ -19,7 +18,6 @@
   <a href="#rocket-tecnologias">Tecnologias</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-requerimentos">Requerimentos</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-execução">Execução</a> &#xa0; | &#xa0;
-  <a href="#memo-licença">Licença</a> &#xa0; | &#xa0;
   <a href="https://github.com/gsoaresdz" target="_blank">Autor</a>
 </p>
 
