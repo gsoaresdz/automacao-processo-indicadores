@@ -1,6 +1,4 @@
-&#xa0;
-
-<h1 align="center">Automação de Vendas</h1>
+<h1 align="center">Sales Automation</h1>
 
 <p align="center">
   <img alt="Github top language" src="https://img.shields.io/github/languages/top/gsoaresdz/automacao-processo-indicadores?color=56BEB8">
@@ -9,89 +7,87 @@
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/gsoaresdz/automacao-processo-indicadores?color=56BEB8">
 
-
 </p>
 
-
 <p align="center">
-  <a href="#dart-sobre">Sobre</a> &#xa0; | &#xa0; 
-  <a href="#rocket-tecnologias">Tecnologias</a> &#xa0; | &#xa0;
-  <a href="#white_check_mark-requerimentos">Requerimentos</a> &#xa0; | &#xa0;
-  <a href="#checkered_flag-execução">Execução</a> &#xa0; | &#xa0;
-  <a href="#memo-licença">Licença</a> &#xa0; | &#xa0;
-  <a href="https://github.com/gsoaresdz" target="_blank">Autor</a>
+  <a href="#dart-about">About</a> &#xa0; | &#xa0; 
+  <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
+  <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
+  <a href="#checkered_flag-execution">Execution</a> &#xa0; | &#xa0;
+  <a href="#memo-license">License</a> &#xa0; | &#xa0;
+  <a href="https://github.com/gsoaresdz" target="_blank">Author</a>
 </p>
 
 <br>
 
-## :dart: Sobre
+## :dart: About
 
-Este projeto consiste em um script para automação de processos relacionados a indicadores de vendas de lojas. Ele lê dados de arquivos Excel e CSV, realiza análises e operações de dados, e envia e-mails com os resultados.
+This project consists of a script for automating processes related to store sales indicators. It reads data from Excel and CSV files, performs data analysis and operations, and sends emails with the results.
 
-- **`pandas`**: Para manipulação e análise de dados.
-- **`pathlib`**: Para manipulação de caminhos de arquivos e diretórios.
-- **`smtplib`** e módulos **`email.*`**: Para enviar e-mails com os resultados.
-- **`os`**: Para operações relacionadas ao sistema operacional.
+- **`pandas`**: For data manipulation and analysis.
+- **`pathlib`**: For handling file and directory paths.
+- **`smtplib`** and **`email.*`** modules: For sending emails with the results.
+- **`os`**: For operating system-related operations.
 
-## :memo: IDE e versão do Python
+## :memo: IDE and Python Version
 
 - **[Python 3.8+](https://www.python.org/downloads/)**
 - **[Jupyter Notebook](https://jupyter.org/install)**
 
-## :memo: Instalações
+## :memo: Installations
 
-1. **Instalar Python**:
-    - Acesse **[Python Downloads](https://www.python.org/downloads/)** e faça o download da versão recomendada.
-    - Siga as instruções do instalador. Lembre-se de marcar a opção "Add Python to PATH" durante a instalação.
-2. **Instalar Jupyter Notebook**:
-    - Abra o terminal ou prompt de comando e execute:
+1. **Install Python**:
+    - Visit **[Python Downloads](https://www.python.org/downloads/)** and download the recommended version.
+    - Follow the installer instructions. Make sure to check the "Add Python to PATH" option during installation.
+2. **Install Jupyter Notebook**:
+    - Open the terminal or command prompt and run:
         
         ```
         pip install jupyter
         ```
         
-3. **Instalar Bibliotecas Necessárias**:
-    - Ainda no terminal ou prompt de comando, instale as bibliotecas usadas neste projeto:
+3. **Install Required Libraries**:
+    - In the terminal or command prompt, install the necessary libraries for this project:
         
         ```
         pip install pandas
         ```
-        
-## :rocket: Tecnologias
 
-As seguintes ferramentas foram usadas neste projeto:
+## :rocket: Technologies
+
+The following tools were used in this project:
 
 - [Python](https://www.python.org/)
 - [Jupyter](https://jupyter.org/)
 - [Anaconda](https://www.anaconda.com/)
 
-## :white_check_mark: Requerimentos
+## :white_check_mark: Requirements
 
-Antes de iniciar :checkered_flag:, você precisa ter [Git](https://git-scm.com) e [Python](https://www.python.org/) instalado.
+Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Python](https://www.python.org/) installed.
 
-## :checkered_flag: Execução
+## :checkered_flag: Execution
 
-1. Clone este repositório ou faça o download dos arquivos.
-2. Abra o Jupyter Notebook navegando até o diretório do projeto e execute:
+1. Clone this repository or download the files.
+2. Open Jupyter Notebook by navigating to the project directory and running:
 
-```
-    jupyter notebook
-```
-3. No navegador, abra o arquivo **`Automacao de Processo.ipynb`**
-4. Dentro do Jupyter Notebook, vá até a célula que deseja executar e pressione **`Shift+Enter`**.
-5. Siga as instruções contidas nas células de markdown e execute as células de código em ordem.
+   ```
+   jupyter notebook
+   ```
+4. In the browser, open the **`Automacao de Processo.ipynb`** file.
+5. Inside Jupyter Notebook, navigate to the cell you want to execute and press **`Shift+Enter`**.
+6. Follow the instructions in the markdown cells and execute the code cells in order.
 
-## :memo: Observações
+## :memo: Notes
 
-- **`Bases de Dados`**: Contém os arquivos de dados utilizados para a análise.
-- **`Backup Arquivos Lojas`**: Contém backups ou arquivos relacionados às lojas.
+- **`Databases`**: Contains the data files used for analysis.
+- **`Backup Store Files`**: Contains backups or files related to the stores.
 
-## :memo: Licença
+## :memo: License
 
-Este projeto está sob licença do MIT. Para obter mais detalhes, consulte o arquivo [LICENSE](LICENSE).
+This project is licensed under the MIT License. For more details, check the [LICENSE](LICENSE) file.
 
-Feito com :heart: by <a href="https://github.com/gsoaresdz" target="_blank">gsoaresdz</a>
+Made with :heart: by <a href="https://github.com/gsoaresdz" target="_blank">gsoaresdz</a>
 
 &#xa0;
 
-<a href="#top">De volta ao topo</a>
+<a href="#top">Back to top</a>
